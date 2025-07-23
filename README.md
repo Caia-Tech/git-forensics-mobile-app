@@ -4,24 +4,32 @@
 [![Non-Commercial](https://img.shields.io/badge/Commercial%20Sale-PROHIBITED-red.svg)](LICENSE)
 [![Swift 5.9+](https://img.shields.io/badge/Swift-5.9+-orange.svg)](https://swift.org)
 [![iOS 17.0+](https://img.shields.io/badge/iOS-17.0+-green.svg)](https://developer.apple.com/ios/)
-[![Security](https://img.shields.io/badge/Security-Audited-brightgreen.svg)](#security)
+[![Development](https://img.shields.io/badge/Status-IN%20DEVELOPMENT-orange.svg)](#development-status)
 [![Privacy First](https://img.shields.io/badge/Privacy-First-blue.svg)](#privacy--security-first)
-[![Test Coverage](https://img.shields.io/badge/Coverage-70%25-yellow.svg)](#testing)
+[![Test Coverage](https://img.shields.io/badge/Tests-125%20Functions-yellow.svg)](#testing)
 
-> **Revolutionary iOS app that applies Git's cryptographic principles to create tamper-evident forensic documentation**
+> **⚠️ DEVELOPMENT PROJECT - NOT READY FOR PRODUCTION**
 
-**Platform**: iOS (Swift/SwiftUI)  
+> **Experimental iOS app exploring Git's cryptographic principles for tamper-evident forensic documentation**
+
+**Platform**: iOS/macOS (Swift/SwiftUI)  
 **Architecture**: Local-First with Cryptographic Integrity  
-**Status**: Production Ready  
+**Status**: Early Development - Alpha Phase  
 **License**: CC BY-NC-SA 4.0 (Non-Commercial)  
 
 > 🚫💰 **COMMERCIAL SALE PROHIBITED** - This software is forever FREE and cannot be sold by anyone, ensuring accessibility for all people regardless of economic status.
 
 ---
 
+## ⚠️ **Development Status**
+
+**This is an experimental development project exploring forensic documentation concepts. It is NOT ready for production use, legal proceedings, or any critical applications.**
+
+See [DEVELOPMENT_STATUS.md](DEVELOPMENT_STATUS.md) for complete details on current limitations and missing features.
+
 ## 🎯 **What Is Git Forensics?**
 
-Git Forensics is a **privacy-first iOS application** that creates **cryptographically verifiable event documentation** using Git's tamper-evident properties. Perfect for professionals, researchers, and individuals who need immutable records.
+Git Forensics is an **experimental iOS/macOS application** that explores **cryptographically verifiable event documentation** using Git's tamper-evident properties. This is a proof-of-concept for professionals, researchers, and developers interested in forensic documentation approaches.
 
 ### **The Core Innovation** 💡
 
@@ -159,9 +167,9 @@ struct EventChain {
 
 ## 🧪 **Testing**
 
-### **Comprehensive Test Coverage: 70%**
+### **Test Suite: 125+ Test Functions**
 
-**117 Tests Passing** across all major components:
+**Development test coverage** across core components:
 
 ```bash
 # Run unit tests
@@ -275,24 +283,29 @@ The application is designed to resist:
 - ✅ **Injection Attacks**: Comprehensive input validation and sanitization
 - ✅ **Side-Channel Attacks**: Proper memory management and secure coding practices
 
-### **Security Auditing**
-- **Static Analysis**: Comprehensive code review for security vulnerabilities
+### **Development Security Testing**
+- **Static Analysis**: Code review for basic security patterns (in progress)
 - **Dynamic Testing**: Security stress tests with malicious input patterns
 - **Cryptographic Validation**: Mathematical verification of hash functions
 - **Authentication Testing**: Biometric and fallback authentication scenarios
 - **Privacy Analysis**: Data flow analysis confirms no external transmission
 
+**⚠️ Note**: No comprehensive security audit has been performed. This is development-phase security testing only.
+
 ---
 
 ## 📋 **Roadmap**
 
-### **Current Phase: Production Ready ✅**
-- ✅ Complete cryptographic event chaining implementation
-- ✅ Native iOS interface with SwiftUI
-- ✅ Comprehensive test suite (117 tests)
-- ✅ Professional PDF export with QR verification
-- ✅ Biometric authentication with audit logging
+### **Current Phase: Early Development (Alpha) 🔄**
+- ✅ Basic cryptographic event chaining implementation
+- ✅ Cross-platform iOS/macOS interface with SwiftUI  
+- ✅ Development test suite (125+ functions)
+- ✅ PDF export with QR verification
+- ✅ Biometric authentication system
 - ✅ Privacy-first architecture with local-only storage
+- ❌ Production-ready security audit
+- ❌ Comprehensive real-world testing
+- ❌ Complete Git integration (currently file-based)
 
 ### **Next Phase: Enhanced Features 🔄**
 - 📅 **Digital Signatures**: PKI integration for enhanced authenticity
@@ -311,28 +324,31 @@ The application is designed to resist:
 
 ## 📚 **Documentation**
 
-### **Core Documentation**
-- 🔐 [Security Policy](SECURITY.md) - Comprehensive security architecture and vulnerability reporting
-- 🏗️ [Architecture Guide](ARCHITECTURE.md) - Technical design and implementation details
-- 📋 [Contributing Guidelines](CONTRIBUTING.md) - Development process and standards
-- 🎯 [Use Cases](USE_CASES.md) - Real-world applications and examples
+### **Available Documentation**
+- ⚠️ [Development Status](DEVELOPMENT_STATUS.md) - Current limitations and development phase
+- 🧪 [Test Plan](git-forensics-apple-multiplatformTests/TEST_PLAN.md) - Testing strategy and coverage
+- 📜 [License](LICENSE) - CC BY-NC-SA 4.0 non-commercial licensing terms
 
-### **Technical References**
-- 🧪 [Test Plan](git-forensics-apple-multiplatformTests/TEST_PLAN.md) - Comprehensive testing strategy
-- 🔒 [Threat Model](THREAT_MODEL.md) - Security analysis and mitigation strategies
-- 📱 [Mobile UX Guide](MOBILE_UX.md) - iOS-specific user experience guidelines
-- ⚖️ [Legal Guide](LEGAL_GUIDE.md) - Legal admissibility and compliance considerations
+### **Documentation In Development**
+The following documentation is planned but not yet available:
+- Security Policy and threat model analysis
+- Architecture guide with technical implementation details  
+- Contributing guidelines for developers
+- Use cases and real-world application examples
+- Legal compliance and admissibility considerations
 
 ---
 
 ## 🏆 **Recognition**
 
-This project represents **genuine technical innovation** in applying cryptographic principles to forensic documentation:
+This project explores **technical innovation** in applying cryptographic principles to forensic documentation:
 
-- **Novel Application**: First known use of Git's cryptographic properties for evidence integrity
-- **Mathematical Certainty**: SHA-256 provides cryptographic proof of tamper evidence
-- **Privacy Pioneer**: Demonstrates local-first architecture for sensitive data
-- **Production Quality**: 117 comprehensive tests with professional development practices
+- **Novel Exploration**: Experimental use of Git's cryptographic properties for evidence integrity
+- **Mathematical Foundation**: SHA-256 provides cryptographic proof of tamper evidence
+- **Privacy-First Design**: Demonstrates local-first architecture for sensitive data
+- **Development Quality**: 125+ test functions with structured development practices
+
+**Note**: This is an experimental development project, not a production system.
 
 ---
 
