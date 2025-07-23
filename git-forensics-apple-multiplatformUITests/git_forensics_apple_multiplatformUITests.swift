@@ -1,8 +1,9 @@
 //
 //  git_forensics_apple_multiplatformUITests.swift
-//  git-forensics-apple-multiplatformUITests
+//  git-forensics-apple-multiplatform
 //
-//  Created by Owner on 7/22/25.
+//  Copyright © 2025 Caia Tech. All rights reserved.
+//  Contact: owner@caiatech.com
 //
 
 import XCTest

@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060A87F293F04AFC8BE0DDFC /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA45CDACBA341CC998E6002 /* LaunchScreen.swift */; };
+		08C59F09C2C94C7B8470C4CC /* SimpleGitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD4EF112344CC5A576F2E0 /* SimpleGitManager.swift */; };
+		17A2FA40FEBC46DE86F3ECD2 /* AttachmentManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235528537CE40AA9A28EAC4 /* AttachmentManagerTests.swift */; };
+		34C1E9282E254112935886FA /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC488CC221144EFBA1A88769 /* EventManager.swift */; };
+		3A84E9E5DB5A4A8D9C3677E0 /* EventChainIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F29C942394C408495D4516B /* EventChainIntegrationTests.swift */; };
+		3B1F795BF5758AF43CDC4C4F /* OAuthLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90B49B822B02DC2BC6E974 /* OAuthLoginView.swift */; };
+		3CB3B3E6A4DF408AA2C3C432 /* ForensicEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF263472E6BB431A86CC15B1 /* ForensicEventTests.swift */; };
+		69A94EE941224411A7E4C63E /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E432605F8E4F4826B9BD3BD9 /* DeviceInfo.swift */; };
+		70CBF8F5E6394D74B6A4EBC8 /* ContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66E20E00E4645828ADCB1DC /* ContentViewTests.swift */; };
+		71F63250D66450822ABE5351 /* CloudBackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A1748CCE3E92D61D07B1C /* CloudBackupView.swift */; };
+		76602EF84CA94B43920E0B53 /* PDFExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2903383C5BF4DE59B1B3B0C /* PDFExportManager.swift */; };
+		7DF24107F8424947B2271F12 /* CreateEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB18ADDDE24DB1A0CAA7C9 /* CreateEventView.swift */; };
+		832FFABCDCAC4D529E6258C0 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E628EC281FE4EBD9028198D /* ShareSheet.swift */; };
+		863028EB72F648D395EE3A8F /* CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4A8A1C3BD44DF8AD0C6B5 /* CrossPlatform.swift */; };
+		883AEE38EF3D4379994E95B9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275DD04F68C44483B01DE44C /* LocationManager.swift */; };
+		8C8582097D8F4A8D9D1275DC /* CryptoUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADDA4D6C5DE46E086F5298E /* CryptoUtilsTests.swift */; };
+		961E77D736974E2AAB6CDDAF /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4EB68FA07B4469AA072333 /* TestHelpers.swift */; };
+		9A549C847F9F4C17B4EE0A56 /* GitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DF55B5C804C36B54EA02A /* GitManager.swift */; };
+		9F38FDEF4B0D4023A0EC876D /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EE3EBA30CD45A98AE79C73 /* EventListView.swift */; };
+		ABA0271C5B48442FBB98FCB4 /* CryptoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC8944784E499090D33E20 /* CryptoUtils.swift */; };
+		AED101AB5D034DF188A56C6B /* BiometricAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9314A9DCC45A393021B83 /* BiometricAuthManager.swift */; };
+		B9EBF99C27A248509A9A8940 /* EventManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A51E2C2554C3B87E821A5 /* EventManagerTests.swift */; };
+		BF5DF0207061802281875BA6 /* CloudBackupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E2EC6597E0A55E8CC758D /* CloudBackupManager.swift */; };
+		C80ADE571C9542A29009B5FE /* SimpleGitManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7802F2D0B22441D80F3DAD1 /* SimpleGitManagerTests.swift */; };
+		C9FF6FE3095743EEB4663E5A /* AttachmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D15CAD506344298AB8475BF /* AttachmentManager.swift */; };
+		CE09474325144A95AF2F7BB2 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3AA2783BB404792BE0BBA /* EventDetailView.swift */; };
+		D1954B3E776B4771AAFD5686 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C9465B9C740C4B5681A54 /* SettingsView.swift */; };
+		DE908CC30DF54BC5815D8B81 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDCB67B2E3450BB8B93FB8 /* OnboardingView.swift */; };
 		EB787B0F2E306B730069BA72 /* git_forensics_apple_multiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB787B0E2E306B730069BA72 /* git_forensics_apple_multiplatformApp.swift */; };
 		EB787B112E306B730069BA72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB787B102E306B730069BA72 /* ContentView.swift */; };
 		EB787B132E306B740069BA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB787B122E306B740069BA72 /* Assets.xcassets */; };
@@ -14,6 +42,10 @@
 		EB787B212E306B740069BA72 /* git_forensics_apple_multiplatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB787B202E306B740069BA72 /* git_forensics_apple_multiplatformTests.swift */; };
 		EB787B2B2E306B740069BA72 /* git_forensics_apple_multiplatformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB787B2A2E306B740069BA72 /* git_forensics_apple_multiplatformUITests.swift */; };
 		EB787B2D2E306B740069BA72 /* git_forensics_apple_multiplatformUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB787B2C2E306B740069BA72 /* git_forensics_apple_multiplatformUITestsLaunchTests.swift */; };
+		F0ECB7BE4DAD430FBD82D8AF /* ForensicEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417AC00A8CE450EAC979E17 /* ForensicEvent.swift */; };
+		ea7fd3c1b6d44f628d1294d0 /* GitHubAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96839a5bcdd84ce99ee87d9d /* GitHubAPIService.swift */; };
+		5a744e44e489400e8387fd86 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2614292b108240eca04001cf /* KeychainManager.swift */; };
+		73c5b29a58f04b8ca07dcf90 /* GitHubTokenSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2bffb22e44c14d53b6eed9bf /* GitHubTokenSetupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +66,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16EE3EBA30CD45A98AE79C73 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventListView.swift; path = "git-forensics-apple-multiplatform/Views/EventListView.swift"; sourceTree = SOURCE_ROOT; };
+		201C9465B9C740C4B5681A54 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		275DD04F68C44483B01DE44C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2DEB18ADDDE24DB1A0CAA7C9 /* CreateEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventView.swift; sourceTree = "<group>"; };
+		3F90B49B822B02DC2BC6E974 /* OAuthLoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthLoginView.swift; path = OAuthLoginView.swift; sourceTree = "<group>"; };
+		436E2EC6597E0A55E8CC758D /* CloudBackupManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudBackupManager.swift; path = CloudBackupManager.swift; sourceTree = "<group>"; };
+		4AA45CDACBA341CC998E6002 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		50DDCB67B2E3450BB8B93FB8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		5E4EB68FA07B4469AA072333 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		5F29C942394C408495D4516B /* EventChainIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventChainIntegrationTests.swift; sourceTree = "<group>"; };
+		6CB9314A9DCC45A393021B83 /* BiometricAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthManager.swift; sourceTree = "<group>"; };
+		8ADDA4D6C5DE46E086F5298E /* CryptoUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoUtilsTests.swift; sourceTree = "<group>"; };
+		8D15CAD506344298AB8475BF /* AttachmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentManager.swift; sourceTree = "<group>"; };
+		8E7DF55B5C804C36B54EA02A /* GitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitManager.swift; sourceTree = "<group>"; };
+		8FA3AA2783BB404792BE0BBA /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		9E628EC281FE4EBD9028198D /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		A235528537CE40AA9A28EAC4 /* AttachmentManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentManagerTests.swift; sourceTree = "<group>"; };
+		A66E20E00E4645828ADCB1DC /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
+		AABD4EF112344CC5A576F2E0 /* SimpleGitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGitManager.swift; sourceTree = "<group>"; };
+		ACCC8944784E499090D33E20 /* CryptoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoUtils.swift; sourceTree = "<group>"; };
+		B64A1748CCE3E92D61D07B1C /* CloudBackupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudBackupView.swift; path = CloudBackupView.swift; sourceTree = "<group>"; };
+		BC488CC221144EFBA1A88769 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		C2903383C5BF4DE59B1B3B0C /* PDFExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExportManager.swift; sourceTree = "<group>"; };
+		DE6A51E2C2554C3B87E821A5 /* EventManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagerTests.swift; sourceTree = "<group>"; };
+		DF263472E6BB431A86CC15B1 /* ForensicEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForensicEventTests.swift; sourceTree = "<group>"; };
+		E417AC00A8CE450EAC979E17 /* ForensicEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForensicEvent.swift; sourceTree = "<group>"; };
+		E432605F8E4F4826B9BD3BD9 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		EB787B0B2E306B730069BA72 /* git-forensics-apple-multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-forensics-apple-multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB787B0E2E306B730069BA72 /* git_forensics_apple_multiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git_forensics_apple_multiplatformApp.swift; sourceTree = "<group>"; };
 		EB787B102E306B730069BA72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +104,11 @@
 		EB787B262E306B740069BA72 /* git-forensics-apple-multiplatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git-forensics-apple-multiplatformUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB787B2A2E306B740069BA72 /* git_forensics_apple_multiplatformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git_forensics_apple_multiplatformUITests.swift; sourceTree = "<group>"; };
 		EB787B2C2E306B740069BA72 /* git_forensics_apple_multiplatformUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git_forensics_apple_multiplatformUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6A4A8A1C3BD44DF8AD0C6B5 /* CrossPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlatform.swift; sourceTree = "<group>"; };
+		F7802F2D0B22441D80F3DAD1 /* SimpleGitManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGitManagerTests.swift; sourceTree = "<group>"; };
+		96839a5bcdd84ce99ee87d9d /* GitHubAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIService.swift; sourceTree = "<group>"; };
+		2614292b108240eca04001cf /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		2bffb22e44c14d53b6eed9bf /* GitHubTokenSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubTokenSetupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +136,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187B7C1B842C4DC7AA80568F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F6A4A8A1C3BD44DF8AD0C6B5 /* CrossPlatform.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		189E04DDCECC4740A7ED6FD3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C2903383C5BF4DE59B1B3B0C /* PDFExportManager.swift */,
+				8E7DF55B5C804C36B54EA02A /* GitManager.swift */,
+				BC488CC221144EFBA1A88769 /* EventManager.swift */,
+				AABD4EF112344CC5A576F2E0 /* SimpleGitManager.swift */,
+				6CB9314A9DCC45A393021B83 /* BiometricAuthManager.swift */,
+				E432605F8E4F4826B9BD3BD9 /* DeviceInfo.swift */,
+				275DD04F68C44483B01DE44C /* LocationManager.swift */,
+				8D15CAD506344298AB8475BF /* AttachmentManager.swift */,
+				436E2EC6597E0A55E8CC758D /* CloudBackupManager.swift */,
+				96839a5bcdd84ce99ee87d9d /* GitHubAPIService.swift */,
+				2614292b108240eca04001cf /* KeychainManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		54D003BFA844420CB776AD82 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC8944784E499090D33E20 /* CryptoUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		750D1D5AF7284946A50B9A73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E417AC00A8CE450EAC979E17 /* ForensicEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A66D6C1720864698A8CA2CE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AA45CDACBA341CC998E6002 /* LaunchScreen.swift */,
+				50DDCB67B2E3450BB8B93FB8 /* OnboardingView.swift */,
+				8FA3AA2783BB404792BE0BBA /* EventDetailView.swift */,
+				2DEB18ADDDE24DB1A0CAA7C9 /* CreateEventView.swift */,
+				9E628EC281FE4EBD9028198D /* ShareSheet.swift */,
+				201C9465B9C740C4B5681A54 /* SettingsView.swift */,
+				B64A1748CCE3E92D61D07B1C /* CloudBackupView.swift */,
+				3F90B49B822B02DC2BC6E974 /* OAuthLoginView.swift */,
+				2bffb22e44c14d53b6eed9bf /* GitHubTokenSetupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EB787B022E306B730069BA72 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +221,11 @@
 				EB787B102E306B730069BA72 /* ContentView.swift */,
 				EB787B122E306B740069BA72 /* Assets.xcassets */,
 				EB787B142E306B740069BA72 /* git_forensics_apple_multiplatform.entitlements */,
+				750D1D5AF7284946A50B9A73 /* Models */,
+				189E04DDCECC4740A7ED6FD3 /* Services */,
+				A66D6C1720864698A8CA2CE8 /* Views */,
+				187B7C1B842C4DC7AA80568F /* Utilities */,
+				54D003BFA844420CB776AD82 /* Utils */,
 				EB787B152E306B740069BA72 /* Preview Content */,
 			);
 			path = "git-forensics-apple-multiplatform";
@@ -116,6 +243,14 @@
 			isa = PBXGroup;
 			children = (
 				EB787B202E306B740069BA72 /* git_forensics_apple_multiplatformTests.swift */,
+				5F29C942394C408495D4516B /* EventChainIntegrationTests.swift */,
+				A235528537CE40AA9A28EAC4 /* AttachmentManagerTests.swift */,
+				F7802F2D0B22441D80F3DAD1 /* SimpleGitManagerTests.swift */,
+				8ADDA4D6C5DE46E086F5298E /* CryptoUtilsTests.swift */,
+				DE6A51E2C2554C3B87E821A5 /* EventManagerTests.swift */,
+				5E4EB68FA07B4469AA072333 /* TestHelpers.swift */,
+				DF263472E6BB431A86CC15B1 /* ForensicEventTests.swift */,
+				A66E20E00E4645828ADCB1DC /* ContentViewTests.swift */,
 			);
 			path = "git-forensics-apple-multiplatformTests";
 			sourceTree = "<group>";
@@ -261,6 +396,30 @@
 			files = (
 				EB787B112E306B730069BA72 /* ContentView.swift in Sources */,
 				EB787B0F2E306B730069BA72 /* git_forensics_apple_multiplatformApp.swift in Sources */,
+				F0ECB7BE4DAD430FBD82D8AF /* ForensicEvent.swift in Sources */,
+				76602EF84CA94B43920E0B53 /* PDFExportManager.swift in Sources */,
+				9A549C847F9F4C17B4EE0A56 /* GitManager.swift in Sources */,
+				34C1E9282E254112935886FA /* EventManager.swift in Sources */,
+				08C59F09C2C94C7B8470C4CC /* SimpleGitManager.swift in Sources */,
+				AED101AB5D034DF188A56C6B /* BiometricAuthManager.swift in Sources */,
+				69A94EE941224411A7E4C63E /* DeviceInfo.swift in Sources */,
+				883AEE38EF3D4379994E95B9 /* LocationManager.swift in Sources */,
+				C9FF6FE3095743EEB4663E5A /* AttachmentManager.swift in Sources */,
+				060A87F293F04AFC8BE0DDFC /* LaunchScreen.swift in Sources */,
+				DE908CC30DF54BC5815D8B81 /* OnboardingView.swift in Sources */,
+				CE09474325144A95AF2F7BB2 /* EventDetailView.swift in Sources */,
+				7DF24107F8424947B2271F12 /* CreateEventView.swift in Sources */,
+				832FFABCDCAC4D529E6258C0 /* ShareSheet.swift in Sources */,
+				D1954B3E776B4771AAFD5686 /* SettingsView.swift in Sources */,
+				863028EB72F648D395EE3A8F /* CrossPlatform.swift in Sources */,
+				ABA0271C5B48442FBB98FCB4 /* CryptoUtils.swift in Sources */,
+				9F38FDEF4B0D4023A0EC876D /* EventListView.swift in Sources */,
+				BF5DF0207061802281875BA6 /* CloudBackupManager.swift in Sources */,
+				71F63250D66450822ABE5351 /* CloudBackupView.swift in Sources */,
+				3B1F795BF5758AF43CDC4C4F /* OAuthLoginView.swift in Sources */,
+				ea7fd3c1b6d44f628d1294d0 /* GitHubAPIService.swift in Sources */,
+				5a744e44e489400e8387fd86 /* KeychainManager.swift in Sources */,
+				73c5b29a58f04b8ca07dcf90 /* GitHubTokenSetupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +428,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB787B212E306B740069BA72 /* git_forensics_apple_multiplatformTests.swift in Sources */,
+				3A84E9E5DB5A4A8D9C3677E0 /* EventChainIntegrationTests.swift in Sources */,
+				17A2FA40FEBC46DE86F3ECD2 /* AttachmentManagerTests.swift in Sources */,
+				C80ADE571C9542A29009B5FE /* SimpleGitManagerTests.swift in Sources */,
+				8C8582097D8F4A8D9D1275DC /* CryptoUtilsTests.swift in Sources */,
+				B9EBF99C27A248509A9A8940 /* EventManagerTests.swift in Sources */,
+				961E77D736974E2AAB6CDDAF /* TestHelpers.swift in Sources */,
+				3CB3B3E6A4DF408AA2C3C432 /* ForensicEventTests.swift in Sources */,
+				70CBF8F5E6394D74B6A4EBC8 /* ContentViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
