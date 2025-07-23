@@ -1,3 +1,5 @@
+Complete IOS version and Android version coming later. I don't have a phone or resources yet.
+
 # Git Forensics Mobile - iOS
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
@@ -416,9 +418,6 @@ Special thanks to the security research community, privacy advocates, and early 
 
 <div align="center">
 
-**Creating verifiable truth, one event at a time.**
-
-*Built with ❤️ for privacy, security, and integrity*
 
 [![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)](https://developer.apple.com/ios/)
